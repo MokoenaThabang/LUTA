@@ -1,1 +1,1 @@
-web: uvicorn main:app
+web: uvicorn --bind 0.0.0.0:$PORT main:app
